@@ -65,6 +65,8 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
    "quotetutorial.pipelines.QuotetutorialPipeline": 300,
 }
+MONGO_URI = 'mongodb+srv://gkannemberg:Temporaria123@cluster0.rnikrwi.mongodb.net/'
+MONGO_DATABASE = 'quotes'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
